@@ -1,0 +1,14 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robbie Jaeger",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
