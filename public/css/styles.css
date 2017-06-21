@@ -6,7 +6,7 @@ body {
 
 header {
   border: 2px solid black;
-  margin: auto;
+  margin: 20px auto 50px auto;
   padding: 30px;
   text-align: center;
   width: 500px;

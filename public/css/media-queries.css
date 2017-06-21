@@ -1,0 +1,11 @@
+@media screen and (max-width: 650px) {
+  header {
+    margin: 20px auto 50px auto;
+    padding: 20px;
+    width: 90%;
+  }
+
+  #main-content {
+    width: 90%;
+  }
+}
