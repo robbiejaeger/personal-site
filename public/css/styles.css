@@ -6,10 +6,18 @@ body {
 
 header {
   border: 2px solid black;
-  padding: 20px;
+  margin: auto;
+  padding: 30px;
   text-align: center;
+  width: 500px;
 }
 
-h1 {
-  display: inline-block;
+#main-content {
+  margin: auto;
+  text-align: center;
+  width: 750px;
+}
+
+#main-content p {
+  text-align: left;
 }
