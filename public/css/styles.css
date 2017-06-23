@@ -8,9 +8,9 @@ body {
 header {
   border: 1px solid #777;
   margin: 20px auto 50px auto;
-  padding: 25px 25px 30px 25px;
+  padding: 25px 25px 40px 25px;
   text-align: center;
-  width: 500px;
+  width: 600px;
 }
 
 h1 {
@@ -83,6 +83,13 @@ article a:hover {
 
 /* BLOG POSTS */
 
+.blog-post {
+  background-color: #F2F3F3;
+  border: 1px solid #DDD;
+  padding: 20px 10px 5px 10px;
+  margin-bottom: 15px;
+}
+
 .blog-post a {
   font-size: 1.5em;
   font-weight: 800;
@@ -98,7 +105,7 @@ article a:hover {
 /* FOOTER */
 
 footer {
-  background-color: #EEE;
+  background-color: #F2F2F2;
   color: #555;
   margin: 50px 0 0 0;
   padding: 10px 0 10px 0;
