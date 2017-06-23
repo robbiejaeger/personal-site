@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
   app.sendFile('index.html');
 });
 
+app.use((req, res) => {
+  res.status(404);
+  res.send('404');
+});
+
 app.listen(app.get('port'), () => {
   console.log(`Personal site running on localhost:${app.get('port')}`);
 });
