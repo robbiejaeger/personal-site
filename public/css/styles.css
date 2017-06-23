@@ -1,4 +1,4 @@
-/* GENERAL PAGE */
+/* GENERAL */
 
 body {
   color: #333;
@@ -30,7 +30,7 @@ h3 {
   text-align: center;
 }
 
-/* NAVIGATION */
+/* NAV */
 
 nav a {
   border-bottom: 1px solid transparent;
@@ -46,7 +46,7 @@ nav a:hover {
   transition: border 0.3s ease;
 }
 
-/* CONTENT LAYOUT */
+/* MAIN CONTENT LAYOUT */
 
 #main-content {
   margin: auto;
@@ -68,7 +68,7 @@ nav a:hover {
   width: 100%;
 }
 
-/* BODY LINKS */
+/* GENERAL LINKS */
 
 article a {
   border-bottom: 1px solid #BBB;
