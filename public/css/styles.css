@@ -1,6 +1,6 @@
 body {
   color: #333;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -13,15 +13,21 @@ header {
 
 h1 {
   font-family: 'Spectral', serif;
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 4em;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+  font-weight: 100; 
 }
 
 nav a {
   border-bottom: 1px solid #FFF;
   color: #888;
   font-size: 1.1em;
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
   transition: border-color 0.2s ease;
 }
@@ -34,7 +40,7 @@ nav a:hover {
 #main-content {
   margin: auto;
   text-align: center;
-  width: 750px;
+  max-width: 650px;
 }
 
 #main-content p {
