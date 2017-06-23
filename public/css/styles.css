@@ -1,12 +1,14 @@
+/* GENERAL PAGE */
+
 body {
   color: #333;
   font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  border: 1px solid black;
+  border: 1px solid #777;
   margin: 20px auto 50px auto;
-  padding: 25px;
+  padding: 25px 25px 30px 25px;
   text-align: center;
   width: 500px;
 }
@@ -23,26 +25,57 @@ h2 {
   font-weight: 100; 
 }
 
+h3 {
+  text-align: center;
+}
+
+/* NAVIGATION */
+
 nav a {
-  border-bottom: 1px solid #FFF;
-  color: #888;
+  border-bottom: 1px solid transparent;
+  color: #555;
   font-size: 1.1em;
   margin: 0 15px;
+  text-decoration: none;
+  transition: border 0.2s ease;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #AAA;
+  transition: border 0.3s ease;
+}
+
+/* CONTENT LAYOUT */
+
+#main-content {
+  margin: auto;
+  max-width: 650px;
+}
+
+.work-img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+/* BODY LINKS */
+
+#main-content a {
+  border-bottom: 1px solid #777;
+  color: #222;
   text-decoration: none;
   transition: border-color 0.2s ease;
 }
 
-nav a:hover {
-  border-bottom: 1px solid #999;
+#main-content a:hover {
+  border-bottom: 1px solid #222;
   transition: border-color 0.3s ease;
 }
 
-#main-content {
-  margin: auto;
-  text-align: center;
-  max-width: 650px;
-}
+/* BLOG POSTS */
 
-#main-content p {
-  text-align: left;
+.blog-post a {
+  font-size: 1.5em;
+  font-weight: 700;
+  border-bottom: 1px solid #777;
 }
