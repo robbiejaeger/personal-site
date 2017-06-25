@@ -57,11 +57,12 @@ nav a:hover {
   line-height: 1.3;
 }
 
-#main-content .large-section {
+.content-group {
   margin-top: 40px;
 }
 
 .work-img {
+  border: 1px solid #DDD;
   border-radius: 10px;
   display: block;
   height: auto;
