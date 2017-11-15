@@ -4,14 +4,14 @@ const app = express();
 app.use(express.static(`${__dirname}/public`));
 app.set('port', process.env.PORT || 3000);
 
-// const requireHTTPS = (req, res, next) => {
-//   if (req.headers['x-forwarded-proto'] !== 'https') {
-//     return res.redirect('https://' + req.get('host') + req.url);
-//   }
-//     next();
-// };
+const requireHTTPS = (req, res, next) => {
+  if (req.headers['x-forwarded-proto'] !== 'https') {
+    return res.redirect('https://' + req.get('host') + req.url);
+  }
+  next();
+};
 
-// app.use(requireHTTPS);
+app.use(requireHTTPS);
 
 app.get('/', (req, res) => {
   app.sendFile('index.html');
