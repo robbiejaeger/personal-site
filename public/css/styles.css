@@ -1,13 +1,14 @@
 /* GENERAL */
 
 body {
-  color: #333;
+  color: #555;
   background-color: #EEE;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
 h1 {
+  color: #333;
   font-family: 'Marcellus SC', serif;
   font-weight: 300;
   font-size: 5em;
@@ -20,7 +21,7 @@ p {
 }
 
 #about {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 /* LINKS */
