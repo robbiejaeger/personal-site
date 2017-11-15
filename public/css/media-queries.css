@@ -3,7 +3,8 @@
     font-size: 3.5em;
   }
 
-  #contact a {
-    font-size: 0.9em;
+  #social svg {
+    width: 2em;
+    height: 2em;
   }
 }
