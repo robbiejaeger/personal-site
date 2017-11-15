@@ -11,6 +11,8 @@ h1 {
   font-family: 'Simonetta', serif;
   font-weight: 300;
   font-size: 5em;
+
+  margin-bottom: 30px;
 }
 
 #contact a {
