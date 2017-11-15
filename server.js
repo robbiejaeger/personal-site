@@ -17,7 +17,11 @@ app.get('/', (req, res) => {
   app.sendFile('index.html');
 });
 
-app.use((req, res) => {
+app.get('*', (req, res) => { // Redirect any other GET request to homepage
+  res.redirect('/');
+});
+
+app.use((req, res) => { // All other requests send 404
   res.status(404);
   res.send('404');
 });
