@@ -50,13 +50,13 @@ a:hover {
   width: 2.5em;
   height: 2.5em;
   stroke-width: 0;
-  stroke: #999;
-  fill: #999;
+  stroke: #B7C3D0;
+  fill: #B7C3D0;
   transition: all 0.2s ease;
 }
 
 #social svg:hover {
-  stroke: #333;
-  fill: #333;
+  stroke: #6C7B8B;
+  fill: #6C7B8B;
   transition: all 0.3s ease;
 }
