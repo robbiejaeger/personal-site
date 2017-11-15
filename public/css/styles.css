@@ -15,20 +15,25 @@ h1 {
   margin-bottom: 30px;
 }
 
-#contact a {
+/* SOCIAL ICONS */
+
+#social a {
+  text-decoration: none;
+
   margin: 0 10px;
 }
 
-/* GENERAL LINKS */
-
-article a {
-  border-bottom: 1px solid #BBB;
-  color: #222;
-  text-decoration: none;
-  transition: border-color 0.2s ease;
+#social svg {
+  width: 2.5em;
+  height: 2.5em;
+  stroke-width: 0;
+  stroke: #999;
+  fill: #999;
+  transition: all 0.2s ease;
 }
 
-article a:hover {
-  border-bottom: 1px solid #222;
-  transition: border-color 0.3s ease;
+#social svg:hover {
+  stroke: #333;
+  fill: #333;
+  transition: all 0.3s ease;
 }
