@@ -8,17 +8,40 @@ body {
 }
 
 h1 {
-  font-family: 'Simonetta', serif;
+  font-family: 'Marcellus SC', serif;
   font-weight: 300;
   font-size: 5em;
 
   margin-bottom: 30px;
 }
 
+p {
+  margin: 8px auto;
+}
+
+#about {
+  margin-bottom: 40px;
+}
+
+/* LINKS */
+
+a {
+  border-bottom: 1px solid #333;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid #999;
+  transition: all 0.3s ease;
+}
+
 /* SOCIAL ICONS */
 
 #social a {
   text-decoration: none;
+  border-bottom: none;
 
   margin: 0 10px;
 }
