@@ -30,11 +30,3 @@ article a:hover {
   border-bottom: 1px solid #222;
   transition: border-color 0.3s ease;
 }
-
-/* FOOTER */
-
-footer {
-  background-color: #F2F2F2;
-  color: #555;
-  text-align: center;
-}
