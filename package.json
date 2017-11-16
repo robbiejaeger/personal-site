@@ -9,7 +9,8 @@
   "author": "Robbie Jaeger",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "serve-favicon": "^2.4.5"
   },
   "devDependencies": {
     "eslint": "^4.0.0"

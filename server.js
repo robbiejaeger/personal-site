@@ -1,4 +1,6 @@
 const express = require('express');
+const favicon = require('serve-favicon');
+const path = require('path');
 const app = express();
 
 const requireHTTPS = (req, res, next) => {
@@ -9,6 +11,7 @@ const requireHTTPS = (req, res, next) => {
 };
 
 if (process.env.NODE_ENV === 'production') { app.use(requireHTTPS) };
+app.use(favicon(path.join(__dirname, 'public', 'img', 'favicon.ico')))
 app.use(express.static(`${__dirname}/public`));
 app.set('port', process.env.PORT || 3000);
 
