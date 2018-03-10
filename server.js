@@ -12,7 +12,7 @@ const requireHTTPS = (req, res, next) => {
 
 if (process.env.NODE_ENV === 'production') { app.use(requireHTTPS) };
 app.use(favicon(path.join(__dirname, 'public', 'img', 'favicon.ico')))
-app.use(express.static(`${__dirname}/public`));
+app.use(express.static('public'));
 app.set('port', process.env.PORT || 3000);
 
 
